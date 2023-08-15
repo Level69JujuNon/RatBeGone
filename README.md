@@ -1,2 +1,2 @@
 # RatBeGone
-This mod assures that you will not got ratted again! When loading your game it checks for various forms of rats no matter how obfuscated. This is one small advancement to ending ratting.
+This mod prevents you from loading your game if your mods folder contains a RAT(Remote access trojain) this makes it so you cannot get hacked or have your stuff stolen. This mod is made for the hypixel skyblock playerbase as ratting is a frequent thing on skyblock though this mod can be used univerally on 1.8.9.
