@@ -1,2 +1,2 @@
 # RatBeGone
-A Mod made for minecraft but more specifically hypixel skyblock that will prevent your game from loading if you have a rat in your mods folder.
+This mod assures that you will not got ratted again! When loading your game it checks for various forms of rats no matter how obfuscated. This is one small advancement to ending ratting.
