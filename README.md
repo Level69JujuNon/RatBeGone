@@ -8,7 +8,7 @@ This mod prevents you from loading your game if your mods folder contains a RAT(
   
   - **IS THIS MOD ACCURATE:** In short yes, this will prevent you from getting ratted but if you are getting false flags from mods such as skytils please read the previous not on 'false flags'
   
-  - **HOW TO AVOID DOWNLOADING MALICIOUS CODE/MODS:** My recomendation is do not download a mod unless it has a link such as CurseForge or Github as these websites do not allow malicious code posted and will ban any mod creator who tries. Do not download direct .jar mods from discord unless you trust the person who sent you the mod. Even if you do trust this person still be wary as they may lie to you.
+  - **HOW TO AVOID DOWNLOADING MALICIOUS CODE/MODS:** The best way to avoid malicious mods/code is by only downloading a mod if it is from a trusted LINK such as CurseForge or Github as these websites do not allow malicious code to be posted and will ban any mod creator who tries. Do not download direct .jar mods from discord unless you trust the person who sent you the mod. Even if you do trust this person still be wary as they may lie to you.
 
 **CREDITS:**
   - Credits to KillerKillsKillers.
