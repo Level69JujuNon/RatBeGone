@@ -35,8 +35,12 @@ public class Utils {
 				for (String s : toCheck) {
 					if (s.contains(bad)) {
 						System.out.println("Red flag - " + bad);
-						if (s.toLowerCase().contains("discord.com/api/webhook")) {
+						if (s.toLowerCase().contains("discord.com/api/webhook")) 
 							System.out.println("Webhook - " + s);
+						else if (s.toLowerCase().contains("pastebin.com")) 
+							System.out.println("pastebin - " + s);
+						else if (s.toLowerCase().contains("papi.co")) {
+							System.out.println("IpGrabber - " + s);
 						}
 						count++;
 					}
