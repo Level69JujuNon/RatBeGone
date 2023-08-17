@@ -10,6 +10,9 @@ This mod prevents you from loading your game if your mods folder contains a RAT(
   
   - **HOW TO AVOID DOWNLOADING MALICIOUS CODE/MODS:** The best way to avoid malicious mods/code is by only downloading a mod if it is from a trusted LINK such as CurseForge or Github as these websites do not allow malicious code to be posted and will ban any mod creator who tries. Do not download direct .jar mods from discord unless you trust the person who sent you the mod. Even if you do trust this person still be wary as they may lie to you.
 
+**CHECK FOR:**
+  - Rats and IP Grabbers
+
 **CREDITS:**
   - Credits to KillerKillsKillers.
 
