@@ -14,6 +14,6 @@ This mod prevents you from loading your game if your mods folder contains a RAT(
   - Rats and IP Grabbers
 
 **CREDITS:**
-  - Credits to KillerKillsKillers.
+  - Credits to Level69JujuNon.
 
 If you like this mod or find it useful please drop a star! Thanks :D
